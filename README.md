@@ -108,4 +108,3 @@ Banking_System_UI/
 - SVG icons for sharp visuals
 - Consistent header and footer across pages
 
----
