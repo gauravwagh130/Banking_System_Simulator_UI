@@ -1,0 +1,77 @@
+.account-details {
+  background: white;
+  width: 90%;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions button {
+  background: #0b3c5d;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: #1abc9c;
+}
+
+.transactions {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.transactions table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.transactions th {
+  background: #0b3c5d;
+  color: white;
+  padding: 14px;
+}
+
+.transactions td {
+  padding: 16px 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.transactions tr:nth-child(even) {
+  background: #f4f7fb;
+}
+
+.success,
+.failed {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.success {
+  background: #27ae60;
+  color: white;
+}
+
+.failed {
+  background: #e74c3c;
+  color: white;
+}

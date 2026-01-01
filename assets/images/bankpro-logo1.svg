@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140">
+  <defs>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e88e5"/>
+      <stop offset="100%" stop-color="#0d47a1"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M70 10 L130 35 V85 C130 110 100 125 70 135 C40 125 10 110 10 85 V35 Z"
+        fill="url(#blueGrad)"/>
+
+  <rect x="45" y="45" width="50" height="30" fill="#ffffff"/>
+  <rect x="40" y="75" width="60" height="6" fill="#ffffff"/>
+  <rect x="50" y="50" width="6" height="25" fill="#0d47a1"/>
+  <rect x="64" y="50" width="6" height="25" fill="#0d47a1"/>
+  <rect x="78" y="50" width="6" height="25" fill="#0d47a1"/>
+
+  <path d="M25 80 C60 95, 110 95, 145 70"
+        stroke="#fb8c00"
+        stroke-width="8"
+        fill="none"
+        stroke-linecap="round"/>
+
+  <text x="160" y="65" font-size="42" font-weight="700"
+        fill="#0d47a1" font-family="Segoe UI, Arial">
+    Bank
+  </text>
+  <text x="255" y="65" font-size="42" font-weight="700"
+        fill="#fb8c00" font-family="Segoe UI, Arial">
+    Pro
+  </text>
+
+  <text x="160" y="95" font-size="16"
+        fill="#757575" font-family="Segoe UI, Arial">
+    Secure. Simple. Smart.
+  </text>
+</svg>

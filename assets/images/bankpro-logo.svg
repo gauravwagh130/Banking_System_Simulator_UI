@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e88e5"/>
+      <stop offset="100%" stop-color="#0d47a1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield -->
+  <path d="M80 12 L150 40 V100 C150 130 110 145 80 155 C50 145 10 130 10 100 V40 Z"
+        fill="url(#blueGrad)"/>
+
+  <!-- Bank building -->
+  <rect x="52" y="55" width="56" height="34" fill="#ffffff"/>
+  <rect x="46" y="90" width="68" height="7" fill="#ffffff"/>
+  <rect x="60" y="60" width="7" height="30" fill="#0d47a1"/>
+  <rect x="75" y="60" width="7" height="30" fill="#0d47a1"/>
+  <rect x="90" y="60" width="7" height="30" fill="#0d47a1"/>
+
+  <!-- Orange swoosh -->
+  <path d="M28 95 C70 112, 130 112, 175 82"
+        stroke="#fb8c00"
+        stroke-width="9"
+        fill="none"
+        stroke-linecap="round"/>
+
+  <!-- Brand text ONLY (Tagline removed) -->
+  <text x="190" y="90" font-size="58" font-weight="700"
+        fill="#0d47a1" font-family="Segoe UI, Arial">
+    Bank
+  </text>
+  <text x="320" y="90" font-size="58" font-weight="700"
+        fill="#fb8c00" font-family="Segoe UI, Arial">
+    Pro
+  </text>
+</svg>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BankPro | Accounts</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/account.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="assets/images/bankpro-logo.svg" alt="BankPro Logo" />
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="accounts.html">Accounts</a></li>
+          <li><a href="transactions.html">Transactions</a></li>
+        </ul>
+
+        <div class="icons">
+          <img src="assets/images/search.svg" alt="Search" />
+          <img src="assets/images/profile.svg" alt="Profile" />
+        </div>
+      </nav>
+
+      <div class="banner">
+        <h1>BankPro</h1>
+        <p>Manage Your Accounts</p>
+      </div>
+    </header>
+    <main class="main-container">
+      <aside class="filters">
+        <h3>Filter by Account Type</h3>
+        <label><input type="checkbox" /> Savings</label>
+        <label><input type="checkbox" /> Current</label>
+        <label><input type="checkbox" /> Fixed Deposit</label>
+        <label><input type="checkbox" /> Salary</label>
+
+        <h3>Filter by Status</h3>
+        <label><input type="checkbox" /> Active</label>
+        <label><input type="checkbox" /> Inactive</label>
+
+        <h3>Search Account</h3>
+        <input type="text" placeholder="Account No / Name" />
+      </aside>
+
+      <section class="accounts">
+        <div class="account-card">
+          <h4>Gaurav Wagh</h4>
+          <p>Account No: GW1329</p>
+          <p>Balance: ₹60,000</p>
+          <p>Status: <span class="active">Active</span></p>
+          <a href="single-account.html" class="btn">View Details</a>
+        </div>
+
+        <div class="account-card">
+          <h4>Harry Potter</h4>
+          <p>Account No: HP1111</p>
+          <p>Balance: ₹30,000</p>
+          <p>Status: <span class="active">Active</span></p>
+          <a href="single-account.html" class="btn">View Details</a>
+        </div>
+      </section>
+    </main>
+
+    <section class="partners">
+      <div class="partners-container">
+        <div class="slider">
+          <img src="assets/images/bank1.png" />
+          <img src="assets/images/bank2.svg" />
+          <img src="assets/images/bank3.svg" />
+          <img src="assets/images/bank1.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>NEWSLETTER</h2>
+      <p>Subscribe for latest banking updates</p>
+      <input type="email" placeholder="Enter your email" />
+      <button>Subscribe</button>
+    </section>
+
+    <section class="services">
+      <div class="service-item">
+        <img src="assets/images/secure.svg" alt="Secure Banking" />
+        <p>Secure Banking</p>
+      </div>
+
+      <div class="service-item">
+        <img src="assets/images/support.svg" alt="24x7 Support" />
+        <p>24x7 Support</p>
+      </div>
+
+      <div class="service-item">
+        <img src="assets/images/fast.svg" alt="Fast Transactions" />
+        <p>Fast Transactions</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-brand">BANKPRO</div>
+        <div class="footer-social">
+          <img src="assets/images/facebook.svg" alt="Facebook" />
+          <img src="assets/images/twitter.svg" alt="Twitter" />
+          <img src="assets/images/youtube.svg" alt="YouTube" />
+          <img src="assets/images/linkedin.svg" alt="LinkedIn" />
+          <img src="assets/images/instagram.svg" alt="Instagram" />
+        </div>
+        <div class="footer-info">
+          <p><img src="assets/images/location.svg" /> Pune, India</p>
+          <p><img src="assets/images/phone.svg" /> +91 99999 88888</p>
+          <p><img src="assets/images/email.svg" /> support@bankpro.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
